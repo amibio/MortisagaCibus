@@ -127,7 +127,7 @@ if (TARGET_ENV === 'development') {
         {
           test: /\.elm$/,
           exclude: [/elm-stuff/, /node_modules/],
-          use: ['elm-hot-loader', 'elm-webpack-loader?verbose=true&warn=true&debug=true'],
+          use: ['elm-hot-webpack-loader', 'elm-webpack-loader?verbose=true&debug=true'],
         },
       ],
     }
@@ -156,7 +156,7 @@ if (TARGET_ENV === 'production') {
         {
           test: /\.elm$/,
           exclude: [/elm-stuff/, /node_modules/],
-          use: ['elm-hot-loader', 'elm-webpack-loader?verbose=true&warn=true&pathToMake='+ prefix + '/bin/elm-make'],
+          use: ['elm-hot-webpack-loader', 'elm-webpack-loader?verbose=true&pathToElm='+ prefix + '/bin/elm-make'],
         },
       ],
     }
