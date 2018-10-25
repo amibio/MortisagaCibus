@@ -746,7 +746,7 @@ renderHeaderAndFooter page model =
             [ div [ class "container" ]
                 [ div [ class "content has-text-centered" ]
                     [ p []
-                        [ text "How to be a hero character sheet creator done with "
+                        [ text "Mortisaga Cibus character sheet creator done with "
                         , i [ class "fa fa-heart" ] []
                         , text " by Kolja Lampe. The source code is licensed MIT."
                         ]
