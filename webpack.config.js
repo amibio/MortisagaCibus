@@ -73,7 +73,7 @@ const common = {
     new CleanWebpackPlugin(['dist']),
 
     new HtmlWebpackPlugin({
-      title: 'htbah-character-creator',
+      title: 'Mortisaga Cibus Charakter',
       template: 'src/index.html',
     }),
 
